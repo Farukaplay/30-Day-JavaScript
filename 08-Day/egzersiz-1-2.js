@@ -77,7 +77,7 @@ for (let key of user) {
   let isLoggedIn = users[key].isLoggedIn
   let points = users[key].points
 
-  if (isLoggedIn == true) {
+  if (isLoggedIn == true && points >= 50) {
     console.log(key + ":", "Online,", "Points:", points)
   }
 }
@@ -98,8 +98,8 @@ for (let key of user) {
 
 console.log("<-------------------------------------->")
 
-let copyUser = Object.assign(users)
-copyUser.Faruk = {
+let copyUser = Object.assign({},    users)
+  copyUser.Faruk = {
   email: "faruk_kaplay@hotmail.com",
   skills: ["HTML", "CSS", "JavaScript"],
   age: 26,
