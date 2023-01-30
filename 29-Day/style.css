@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    width: 350px;
+}
+
+.font-family-1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-family-2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font-family-3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font-family-4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.font-family-5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-family-6{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font-family-7{
+    font-family: cursive;
+}
+
+.font-family-8{
+    font-family: fantasy;
+}

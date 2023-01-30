@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cascadia Code";
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header .container{
+    padding: 20px;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: 24px;
+}
+
+.jobs{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: antiquewhite;
+    padding-left: 0;
+    border-radius: 4px;
+}
+
+.jobs-item {
+    animation-duration: 5s;
+    animation-name: slidein;
+    display: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+  
+  @keyframes slidein {
+    from {
+        opacity: 0;
+        margin-left: 0;
+    }
+    
+    to {
+        margin-left: 50px;
+        opacity: 100%;
+    }
+}
+
+.jobs-item.active{
+    display: block;
+}
